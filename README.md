@@ -55,6 +55,7 @@ AMR allows the employees of the service company (electricity/gas/water) or prefe
 ## **Accuracy** 
 
 **Digit Correctness:** 73% or above
+
 **Meter Reading Correctness:** 12.5% or above
 
 Accuracy may increase/decrease due to changes in the pre-processing steps or the image quality (brightness, luminance, contrast etc.)
