@@ -37,14 +37,14 @@ AMR allows the employees of the service company (electricity/gas/water) or prefe
 
 ## **Technologies**
 
-3 different approaches have been applied to project and the most accurate one "MATLAB OCR Engine" approach has been selected.
+3 different approaches have been applied to the project and the most accurate resulted **"MATLAB OCR Engine"** approach has been selected.
 
 * **CNN**
   * Train: [SVHN (The Street View House Numbers)](http://ufldl.stanford.edu/housenumbers/)
   * Test: [Digital Meter Images](https://github.com/eertay/Digital-Meter-Reading/tree/main/original-images) 
   * Test Image Values: [.xlsx](https://github.com/eertay/Digital-Meter-Reading)
   
-* **Pytesseract with Python on Colab**
+* **Pytesseract on Colab**
   * [Code](https://colab.research.google.com/drive/1fsE0tP_e6g0qoz3k0fOI_-UjRJHhuvCP)
   
 * **MATLAB OCR Engine**
