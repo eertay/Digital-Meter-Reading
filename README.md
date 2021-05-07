@@ -1,10 +1,10 @@
-# MATLAB OCR ENGINE / Digital Meter Reading Project
+# MATLAB OCR ENGINE / Python Digital Meter Reading Project
 
-AMR (automatic meter reading) project for digital meters, built with MATLAB OCR Engine using basic OCR and image processing knowledge.
+This is an AMR (automatic meter reading) project for digital meters, built using MATLAB's OCR Engine and the Image Processing Toolbox.
 
 ## **OCR** 
 
-Conversion of images typed, handwritten or printed text into machine-encoded text. Widely used form is the data entry from printed papers. Aim is to digitize these texts, so that they can be electronically edited for AI, computer vision or pattern recognition research.
+Aims to convert images containing typed, handwritten or printed text and numbers into machine-encoded text. Widely used form is the data entry from printed papers. The main goal is to digitise these texts, so that they can be electronically edited for AI, computer vision or pattern recognition research.
 
 **for more info:** https://github.com/kba/awesome-ocr
 
@@ -19,7 +19,7 @@ Conversion of images typed, handwritten or printed text into machine-encoded tex
 
 ## **AMR**
 
-AMR allows the employees of the service company (electricity/gas/water) or preferably, the consumers themselves to capture meter images using a mobile device, which is cheaper and more feasible than manual on-site reading, and easier to deploy - in the short/medium term - than the replacement of old meters.
+AMR allows the employees of service companies (electricity/gas/water) or preferably, their consumers, to capture energy meter images using a mobile device, which is cheaper and more feasible than manual on-site reading, and easier to deploy - in the short/medium term.
 
 ### **Two main categories:**
 
@@ -31,13 +31,13 @@ AMR allows the employees of the service company (electricity/gas/water) or prefe
 
 * Poor file resolution
 * Blurry images, particularly motion blur
-* Small or large scale
+* Small or large scales
 * Poor lighting and low contrast due to overexposure, reflection or shadows
 * An object obscuring (dirt, broken glass etc.)
 
 ## **Technologies**
 
-3 different approaches have been applied to the project and the most accurate resulted **"MATLAB OCR Engine"** approach has been selected.
+The following 3 different approaches were taken in this project and **"MATLAB OCR Engine"** resulted in the highest accuracy.
 
 * **CNN**
   * Train: [SVHN (The Street View House Numbers)](http://ufldl.stanford.edu/housenumbers/)
